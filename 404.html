@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript">
+      var currentPath =
+        window.location.pathname +
+        window.location.search +
+        window.location.hash;
+
+      if (currentPath !== "/" && currentPath !== "/index.html") {
+        window.location.href = "/index.html?redirectTo=" + currentPath;
+      }
+    </script>
+  </head>
+  <body></body>
+</html>

@@ -1,2 +1,0 @@
-# yAppClient
-yApp client
